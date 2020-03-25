@@ -11,7 +11,7 @@
     <h1>Lovely Wines Vineyard</h1>
     <div class="container">
       <div>
-        <select class ="formControl" id="beverage">
+        <select class ="formGroup" id="beverage">
           <option value="Merlot">Chateau de blanc</option>
           <option value="rose">Mer de Noms</option>
           <option value="pino-gris">2 Buck Chuck</option>
@@ -30,7 +30,16 @@
           </div>
           <button type="submit"  class="btn">Submit your order!</button>
         </form>
-
+        <div id="receipt">
+          <ul>
+            <li class="userName"></li>
+            <li class="address1"></li>
+            <li class="aptNum"></li>
+            <li class="address2"></li>
+            <li class="purchase"></li>
+          </ul>
+        </div>
+        
       </div>
     </div>
   </body>
